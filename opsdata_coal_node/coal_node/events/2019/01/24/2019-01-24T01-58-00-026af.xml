@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns="http://quakeml.org/xmlns/bed/1.2">
+  <eventParameters publicID="smi:local/3d3fa405-645f-41a2-8d26-db5c1c86ddea">
+    <event publicID="smi:local/60cc4b88-0497-41b4-9744-3884140026af">
+      <preferredOriginID>smi:local/8bdc774b-608c-4975-8302-2af8300b5e96</preferredOriginID>
+      <preferredMagnitudeID>smi:local/379a834c-6bd6-46a4-9f6b-5fbf8625ca5c</preferredMagnitudeID>
+      <description>
+        <text>LT</text>
+      </description>
+      <creationInfo>
+        <agencyID>NIOSH</agencyID>
+        <author>SB</author>
+        <creationTime>2019-12-13T17:57:22.219864Z</creationTime>
+      </creationInfo>
+      <origin publicID="smi:local/8bdc774b-608c-4975-8302-2af8300b5e96">
+        <time>
+          <value>2019-01-24T01:58:00.773205Z</value>
+        </time>
+        <latitude>
+          <value>47.681722736914224</value>
+        </latitude>
+        <longitude>
+          <value>-117.4033027612482</value>
+        </longitude>
+        <depth>
+          <value>-233.26333333333332</value>
+        </depth>
+        <depthType>from location</depthType>
+        <timeFixed>false</timeFixed>
+        <epicenterFixed>false</epicenterFixed>
+        <methodID>smi:local/nllpy_version1.0.0</methodID>
+        <quality>
+          <associatedPhaseCount>10</associatedPhaseCount>
+          <usedPhaseCount>10</usedPhaseCount>
+          <associatedStationCount>-1</associatedStationCount>
+          <usedStationCount>10</usedStationCount>
+          <depthPhaseCount>-1</depthPhaseCount>
+          <standardError>0.00445642</standardError>
+          <azimuthalGap>167.747</azimuthalGap>
+          <secondaryAzimuthalGap>208.22</secondaryAzimuthalGap>
+          <minimumDistance>0.0006821840014560768</minimumDistance>
+          <maximumDistance>0.0027299446940626617</maximumDistance>
+          <medianDistance>0.001894987535479535</medianDistance>
+        </quality>
+        <type>hypocenter</type>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <comment id="smi:local/04dd6b04-b6e9-40fe-8eeb-5b5e4de6dfc3">
+          <text>['UMWM May 2018 deployment']</text>
+          <creationInfo>
+            <creationTime>2019-11-30T19:20:33.140987Z</creationTime>
+          </creationInfo>
+        </comment>
+        <comment id="smi:local/9cd025dc-9ddd-464e-97ed-ca08dd46bba8">
+          <text>GRID  11 14 23  0 0.5 -2.85  0.1 0.1 0.1 PROB_DENSITY</text>
+          <creationInfo>
+            <creationTime>2019-11-30T19:20:33.141086Z</creationTime>
+          </creationInfo>
+        </comment>
+        <comment id="smi:local/ff7b2f19-37d3-4953-8a0f-32b3bc5fb94b">
+          <text>SEARCH OCTREE nInitial 2860 nEvaluated 300004 smallestNodeSide 0.003125/0.003125/0.003267 oct_tree_integral 1.706113e-02 scatter_volume 1.706113e-02</text>
+          <creationInfo>
+            <creationTime>2019-11-30T19:20:33.141172Z</creationTime>
+          </creationInfo>
+        </comment>
+        <comment id="smi:local/06e2c8cf-0ad4-435c-a3f4-cefbd4d419a9">
+          <text>VPVSRATIO  VpVsRatio -1  Npair 0  Diff -2e+30</text>
+          <creationInfo>
+            <creationTime>2019-11-30T19:20:33.141254Z</creationTime>
+          </creationInfo>
+        </comment>
+        <comment id="smi:local/d90bb830-1b86-4547-b5e0-670870fc3432">
+          <text>STAT_GEOG  ExpectLat 1.29821 Long 0.772613 Depth -1.6633</text>
+          <creationInfo>
+            <creationTime>2019-11-30T19:20:33.141334Z</creationTime>
+          </creationInfo>
+        </comment>
+        <comment id="smi:local/be6950cc-af2a-46ec-b09f-3b1bd6035192">
+          <text>TRANSFORM  NONE</text>
+          <creationInfo>
+            <creationTime>2019-11-30T19:20:33.141414Z</creationTime>
+          </creationInfo>
+        </comment>
+        <creationInfo>
+          <creationTime>2019-11-30T19:20:33.143479Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>uncertainty ellipse</preferredDescription>
+          <horizontalUncertainty>-1.0</horizontalUncertainty>
+          <minHorizontalUncertainty>0.0013137290019260815</minHorizontalUncertainty>
+          <maxHorizontalUncertainty>0.0019573464956339397</maxHorizontalUncertainty>
+          <azimuthMaxHorizontalUncertainty>48.8301</azimuthMaxHorizontalUncertainty>
+          <confidenceLevel>68.0</confidenceLevel>
+        </originUncertainty>
+        <arrival publicID="smi:local/0ac4055a-361d-4b17-aeb0-640ff4a4869d">
+          <pickID>smi:local/33192aca-55a6-4239-8701-7f1a593cfff3</pickID>
+          <phase>P</phase>
+          <azimuth>244.81</azimuth>
+          <distance>0.0006825850988923164</distance>
+          <timeResidual>-0.0094</timeResidual>
+          <timeWeight>0.6572</timeWeight>
+          <creationInfo>
+            <creationTime>2019-11-30T19:20:33.141624Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/f50f0136-6e03-41aa-9f56-3e3ab7bbec29">
+          <pickID>smi:local/49084f14-6ca1-43b4-a181-4b7f94372b73</pickID>
+          <phase>P</phase>
+          <azimuth>201.87</azimuth>
+          <distance>0.0010737899974669644</distance>
+          <timeResidual>-0.002</timeResidual>
+          <timeWeight>1.1523</timeWeight>
+          <creationInfo>
+            <creationTime>2019-11-30T19:20:33.141806Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/e2a8e4a7-49ff-4591-8a03-1fef4ee4fb02">
+          <pickID>smi:local/25de1008-8943-4a86-95cd-07176ec23a61</pickID>
+          <phase>P</phase>
+          <azimuth>318.74</azimuth>
+          <distance>0.001125051329004332</distance>
+          <timeResidual>-0.0001</timeResidual>
+          <timeWeight>1.1723</timeWeight>
+          <creationInfo>
+            <creationTime>2019-11-30T19:20:33.141989Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/951190b0-3a2a-4869-b1ee-eaf20aa2d3d3">
+          <pickID>smi:local/ae206271-0cfb-43f4-a968-3c05c649baef</pickID>
+          <phase>P</phase>
+          <azimuth>126.48</azimuth>
+          <distance>0.00122577534886723</distance>
+          <timeResidual>0.0067</timeResidual>
+          <timeWeight>0.7905</timeWeight>
+          <creationInfo>
+            <creationTime>2019-11-30T19:20:33.142165Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/eb55d430-2b67-44a5-8d35-abf165b56dbf">
+          <pickID>smi:local/bf1575e6-d715-40ed-9a49-9b0f955011a9</pickID>
+          <phase>P</phase>
+          <azimuth>238.37</azimuth>
+          <distance>0.001598993815323503</distance>
+          <timeResidual>0.0036</timeResidual>
+          <timeWeight>1.0383</timeWeight>
+          <creationInfo>
+            <creationTime>2019-11-30T19:20:33.142338Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/e46114fe-fd14-4d2a-88f8-cb7e61ef601d">
+          <pickID>smi:local/49d738e7-b666-4b8b-8003-6025d2d15c45</pickID>
+          <phase>P</phase>
+          <azimuth>222.36</azimuth>
+          <distance>0.002190747432018028</distance>
+          <timeResidual>0.0044</timeResidual>
+          <timeWeight>0.9882</timeWeight>
+          <creationInfo>
+            <creationTime>2019-11-30T19:20:33.142515Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/46778244-6c12-4522-a206-e360505a58fc">
+          <pickID>smi:local/b4d5c7be-996b-4f1d-ae8d-5763438d1904</pickID>
+          <phase>P</phase>
+          <azimuth>166.96</azimuth>
+          <distance>0.002222223688225183</distance>
+          <timeResidual>-0.0078</timeResidual>
+          <timeWeight>0.7977</timeWeight>
+          <creationInfo>
+            <creationTime>2019-11-30T19:20:33.142695Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/80c927fb-f0b2-49ec-bed2-c7c26ed25dc3">
+          <pickID>smi:local/1b8c942d-8c6d-4421-b56f-1c1cd071cd7a</pickID>
+          <phase>P</phase>
+          <azimuth>277.82</azimuth>
+          <distance>0.0026808777072437357</distance>
+          <timeResidual>-0.004</timeResidual>
+          <timeWeight>1.0734</timeWeight>
+          <creationInfo>
+            <creationTime>2019-11-30T19:20:33.142871Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/a6a83bb4-24e0-42c9-b6c0-7cd07f8d6a2e">
+          <pickID>smi:local/f27a0625-611d-4b27-ba42-5a6b1e5c59d4</pickID>
+          <phase>P</phase>
+          <azimuth>297.65</azimuth>
+          <distance>0.002706958033815379</distance>
+          <timeResidual>0.0008</timeResidual>
+          <timeWeight>1.1582</timeWeight>
+          <creationInfo>
+            <creationTime>2019-11-30T19:20:33.143045Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/8b5d7e43-43cb-442c-b999-22059c779f59">
+          <pickID>smi:local/7ec143c6-a24d-4a06-82cf-38a97cde349a</pickID>
+          <phase>P</phase>
+          <azimuth>250.08</azimuth>
+          <distance>0.0027303403955692656</distance>
+          <timeResidual>-0.0006</timeResidual>
+          <timeWeight>1.172</timeWeight>
+          <creationInfo>
+            <creationTime>2019-11-30T19:20:33.143222Z</creationTime>
+          </creationInfo>
+        </arrival>
+      </origin>
+      <magnitude publicID="smi:local/28318ded-d3d8-4468-a909-a8ab38432ab4">
+        <mag>
+          <value>-0.40760186536274357</value>
+          <uncertainty>0.21251613003565217</uncertainty>
+          <confidenceLevel>95.0</confidenceLevel>
+        </mag>
+        <type>ML</type>
+        <originID>smi:local/8bdc774b-608c-4975-8302-2af8300b5e96</originID>
+        <methodID>smi:local/magpy_version0.0.0</methodID>
+        <stationCount>22</stationCount>
+        <azimuthalGap>40.4721042534011</azimuthalGap>
+        <evaluationMode>automatic</evaluationMode>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/fc9797c1-e6af-4eab-b14b-58b1b86ae70a</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>-0.3985968216190894</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/f2ac2f45-8697-47b0-ba47-259099e4b7b1</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>-0.0271404795299357</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/a093c97e-f25d-4576-b287-e1ef11eb8809</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>0.10490162215468213</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/84f07c6a-fb2b-4ebf-8eb4-647d56234f82</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>0.048928616752834886</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/002b4d9d-b961-42d3-92d2-e9857d77921d</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>0.19129129700051872</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/922fc50a-198c-4ce7-881b-c48b67db2ef2</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>-0.2928296637749741</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/466f2d83-e412-404c-b538-bf81b01a00e7</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>-0.36049806726491407</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/85c6479f-21b5-46d1-a42e-8b64239963ec</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>-0.18599779239072656</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/7826c9bf-3285-4cde-9e28-60096b3f512d</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>0.001927723669588266</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/d3eaab2f-54b5-48b0-a42e-af1fe8e31577</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>0.021357154551305824</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/567a67c4-d8b9-453b-a21e-0f1279843962</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>-0.3512464659157517</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/84bf3dd1-5c08-4b23-bb2e-a232081323ed</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>0.3527873345965624</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/d030e2bb-77f8-4884-9d53-d489d75ca8e6</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>0.06953326279048144</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/a72b97d5-749c-408f-aba7-3fc1af37a5a3</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>0.1595036774836911</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/a9a33dea-afc7-4003-8054-7f30446e2b69</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>0.16054543641022767</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/9b651298-b0f8-413b-8d7f-fd2fd50bd20d</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>-0.30781447330612743</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/16819707-6132-401b-b238-9e474e992a15</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>0.11388123393627692</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/bb4f90e0-0a7d-4f9d-85b4-e8571a8e962c</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>0.03446191208117333</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/4953f1da-d90b-4a43-b98d-11681ae40950</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>-0.41684364283076447</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/ac7a80f4-b2e7-41d1-a21d-7f12fce8c696</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>-0.001927723669588266</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/ef98e364-9254-4afd-af0b-b698d7e9a4d0</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>-0.21251613003565217</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/3f07f48b-1f25-49c9-8378-3c6986ab6fc7</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>-0.05050658744259029</residual>
+        </stationMagnitudeContribution>
+        <creationInfo>
+          <creationTime>2019-12-01T01:46:34.134788Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <magnitude publicID="smi:local/379a834c-6bd6-46a4-9f6b-5fbf8625ca5c">
+        <mag>
+          <value>1.0044307638582535</value>
+          <uncertainty>0.3382822948427002</uncertainty>
+          <confidenceLevel>95.0</confidenceLevel>
+        </mag>
+        <type>MW</type>
+        <originID>smi:local/8bdc774b-608c-4975-8302-2af8300b5e96</originID>
+        <methodID>smi:local/magpy_version0.0.0</methodID>
+        <stationCount>3</stationCount>
+        <azimuthalGap>47.56288806928245</azimuthalGap>
+        <evaluationMode>automatic</evaluationMode>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/681aa3b6-31db-46e1-891b-20f471cdec51</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>0.0</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/3bd69182-2cb7-48cb-9c60-c2ad8cb88582</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>0.09934289488107595</residual>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>smi:local/2ee401e2-c02a-4ceb-83c9-7ece068914ca</stationMagnitudeID>
+          <weight>1.0</weight>
+          <residual>-0.3382822948427002</residual>
+        </stationMagnitudeContribution>
+        <creationInfo>
+          <creationTime>2019-12-01T01:46:40.069175Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <pick publicID="smi:local/33192aca-55a6-4239-8701-7f1a593cfff3">
+        <time>
+          <value>2019-01-24T01:58:00.854900Z</value>
+          <uncertainty>0.005</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="5"></waveformID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <creationInfo>
+          <creationTime>2019-11-30T19:20:33.136412Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/49084f14-6ca1-43b4-a181-4b7f94372b73">
+        <time>
+          <value>2019-01-24T01:58:00.866500Z</value>
+          <uncertainty>0.005</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="12"></waveformID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <creationInfo>
+          <creationTime>2019-11-30T19:20:33.136894Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/25de1008-8943-4a86-95cd-07176ec23a61">
+        <time>
+          <value>2019-01-24T01:58:00.865100Z</value>
+          <uncertainty>0.005</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="2"></waveformID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <creationInfo>
+          <creationTime>2019-11-30T19:20:33.137345Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/ae206271-0cfb-43f4-a968-3c05c649baef">
+        <time>
+          <value>2019-01-24T01:58:00.881800Z</value>
+          <uncertainty>0.005</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="3"></waveformID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <creationInfo>
+          <creationTime>2019-11-30T19:20:33.137795Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/bf1575e6-d715-40ed-9a49-9b0f955011a9">
+        <time>
+          <value>2019-01-24T01:58:00.875400Z</value>
+          <uncertainty>0.005</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="11"></waveformID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <creationInfo>
+          <creationTime>2019-11-30T19:20:33.138240Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/49d738e7-b666-4b8b-8003-6025d2d15c45">
+        <time>
+          <value>2019-01-24T01:58:00.879800Z</value>
+          <uncertainty>0.005</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="7"></waveformID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <creationInfo>
+          <creationTime>2019-11-30T19:20:33.138686Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/b4d5c7be-996b-4f1d-ae8d-5763438d1904">
+        <time>
+          <value>2019-01-24T01:58:00.875700Z</value>
+          <uncertainty>0.005</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="6"></waveformID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <creationInfo>
+          <creationTime>2019-11-30T19:20:33.139128Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/1b8c942d-8c6d-4421-b56f-1c1cd071cd7a">
+        <time>
+          <value>2019-01-24T01:58:00.872400Z</value>
+          <uncertainty>0.005</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="4"></waveformID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <creationInfo>
+          <creationTime>2019-11-30T19:20:33.139569Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/f27a0625-611d-4b27-ba42-5a6b1e5c59d4">
+        <time>
+          <value>2019-01-24T01:58:00.877900Z</value>
+          <uncertainty>0.005</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="10"></waveformID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <creationInfo>
+          <creationTime>2019-11-30T19:20:33.140018Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/7ec143c6-a24d-4a06-82cf-38a97cde349a">
+        <time>
+          <value>2019-01-24T01:58:00.876200Z</value>
+          <uncertainty>0.005</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="8"></waveformID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <creationInfo>
+          <creationTime>2019-11-30T19:20:33.140510Z</creationTime>
+        </creationInfo>
+      </pick>
+    </event>
+  </eventParameters>
+</q:quakeml>

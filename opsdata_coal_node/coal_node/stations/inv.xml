@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.0">
+  <Source>NIOSH</Source>
+  <Module>ObsPy 1.1.1rc1.post0+355.g7016d5b355</Module>
+  <ModuleURI>https://www.obspy.org</ModuleURI>
+  <Created>2018-09-13T22:46:13.234189Z</Created>
+  <Network code="1">
+    <Station code="10">
+      <Latitude unit="DEGREES">47.68296693415016</Latitude>
+      <Longitude unit="DEGREES">-117.40686942299459</Longitude>
+      <Elevation unit="METERS">543.5833333333335</Elevation>
+      <Site>
+        <Name>10</Name>
+      </Site>
+      <CreationDate>None</CreationDate>
+      <Channel code="DPE" locationCode="1">
+        <Latitude unit="DEGREES">47.68296693415016</Latitude>
+        <Longitude unit="DEGREES">-117.40686942299459</Longitude>
+        <Elevation unit="METERS">543.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPN" locationCode="1">
+        <Latitude unit="DEGREES">47.68296693415016</Latitude>
+        <Longitude unit="DEGREES">-117.40686942299459</Longitude>
+        <Elevation unit="METERS">543.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPZ" locationCode="1">
+        <Latitude unit="DEGREES">47.68296693415016</Latitude>
+        <Longitude unit="DEGREES">-117.40686942299459</Longitude>
+        <Elevation unit="METERS">543.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+    </Station>
+    <Station code="4">
+      <Latitude unit="DEGREES">47.68207817912281</Latitude>
+      <Longitude unit="DEGREES">-117.40722366260083</Longitude>
+      <Elevation unit="METERS">537.5833333333335</Elevation>
+      <Site>
+        <Name>4</Name>
+      </Site>
+      <CreationDate>None</CreationDate>
+      <Channel code="DPE" locationCode="1">
+        <Latitude unit="DEGREES">47.68207817912281</Latitude>
+        <Longitude unit="DEGREES">-117.40722366260083</Longitude>
+        <Elevation unit="METERS">537.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPN" locationCode="1">
+        <Latitude unit="DEGREES">47.68207817912281</Latitude>
+        <Longitude unit="DEGREES">-117.40722366260083</Longitude>
+        <Elevation unit="METERS">537.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPZ" locationCode="1">
+        <Latitude unit="DEGREES">47.68207817912281</Latitude>
+        <Longitude unit="DEGREES">-117.40722366260083</Longitude>
+        <Elevation unit="METERS">537.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+    </Station>
+    <Station code="8">
+      <Latitude unit="DEGREES">47.68079997436999</Latitude>
+      <Longitude unit="DEGREES">-117.40708653127001</Longitude>
+      <Elevation unit="METERS">544.5833333333335</Elevation>
+      <Site>
+        <Name>8</Name>
+      </Site>
+      <CreationDate>None</CreationDate>
+      <Channel code="DPE" locationCode="1">
+        <Latitude unit="DEGREES">47.68079997436999</Latitude>
+        <Longitude unit="DEGREES">-117.40708653127001</Longitude>
+        <Elevation unit="METERS">544.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPN" locationCode="1">
+        <Latitude unit="DEGREES">47.68079997436999</Latitude>
+        <Longitude unit="DEGREES">-117.40708653127001</Longitude>
+        <Elevation unit="METERS">544.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPZ" locationCode="1">
+        <Latitude unit="DEGREES">47.68079997436999</Latitude>
+        <Longitude unit="DEGREES">-117.40708653127001</Longitude>
+        <Elevation unit="METERS">544.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+    </Station>
+    <Station code="7">
+      <Latitude unit="DEGREES">47.68014089961606</Latitude>
+      <Longitude unit="DEGREES">-117.40557814515529</Longitude>
+      <Elevation unit="METERS">583.5833333333335</Elevation>
+      <Site>
+        <Name>7</Name>
+      </Site>
+      <CreationDate>None</CreationDate>
+      <Channel code="DPE" locationCode="1">
+        <Latitude unit="DEGREES">47.68014089961606</Latitude>
+        <Longitude unit="DEGREES">-117.40557814515529</Longitude>
+        <Elevation unit="METERS">583.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPN" locationCode="1">
+        <Latitude unit="DEGREES">47.68014089961606</Latitude>
+        <Longitude unit="DEGREES">-117.40557814515529</Longitude>
+        <Elevation unit="METERS">583.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPZ" locationCode="1">
+        <Latitude unit="DEGREES">47.68014089961606</Latitude>
+        <Longitude unit="DEGREES">-117.40557814515529</Longitude>
+        <Elevation unit="METERS">583.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+    </Station>
+    <Station code="11">
+      <Latitude unit="DEGREES">47.68083991794241</Latitude>
+      <Longitude unit="DEGREES">-117.4053496054263</Longitude>
+      <Elevation unit="METERS">595.5833333333335</Elevation>
+      <Site>
+        <Name>11</Name>
+      </Site>
+      <CreationDate>None</CreationDate>
+      <Channel code="DPE" locationCode="1">
+        <Latitude unit="DEGREES">47.68083991794241</Latitude>
+        <Longitude unit="DEGREES">-117.4053496054263</Longitude>
+        <Elevation unit="METERS">595.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPN" locationCode="1">
+        <Latitude unit="DEGREES">47.68083991794241</Latitude>
+        <Longitude unit="DEGREES">-117.4053496054263</Longitude>
+        <Elevation unit="METERS">595.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPZ" locationCode="1">
+        <Latitude unit="DEGREES">47.68083991794241</Latitude>
+        <Longitude unit="DEGREES">-117.4053496054263</Longitude>
+        <Elevation unit="METERS">595.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+    </Station>
+    <Station code="5">
+      <Latitude unit="DEGREES">47.681489005842394</Latitude>
+      <Longitude unit="DEGREES">-117.40426402813287</Longitude>
+      <Elevation unit="METERS">612.5833333333335</Elevation>
+      <Site>
+        <Name>5</Name>
+      </Site>
+      <CreationDate>None</CreationDate>
+      <Channel code="DPE" locationCode="1">
+        <Latitude unit="DEGREES">47.681489005842394</Latitude>
+        <Longitude unit="DEGREES">-117.40426402813287</Longitude>
+        <Elevation unit="METERS">612.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPN" locationCode="1">
+        <Latitude unit="DEGREES">47.681489005842394</Latitude>
+        <Longitude unit="DEGREES">-117.40426402813287</Longitude>
+        <Elevation unit="METERS">612.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPZ" locationCode="1">
+        <Latitude unit="DEGREES">47.681489005842394</Latitude>
+        <Longitude unit="DEGREES">-117.40426402813287</Longitude>
+        <Elevation unit="METERS">612.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+    </Station>
+    <Station code="2">
+      <Latitude unit="DEGREES">47.6826274066012</Latitude>
+      <Longitude unit="DEGREES">-117.40446970742079</Longitude>
+      <Elevation unit="METERS">593.5833333333335</Elevation>
+      <Site>
+        <Name>2</Name>
+      </Site>
+      <CreationDate>None</CreationDate>
+      <Channel code="DPE" locationCode="1">
+        <Latitude unit="DEGREES">47.6826274066012</Latitude>
+        <Longitude unit="DEGREES">-117.40446970742079</Longitude>
+        <Elevation unit="METERS">593.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPN" locationCode="1">
+        <Latitude unit="DEGREES">47.6826274066012</Latitude>
+        <Longitude unit="DEGREES">-117.40446970742079</Longitude>
+        <Elevation unit="METERS">593.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPZ" locationCode="1">
+        <Latitude unit="DEGREES">47.6826274066012</Latitude>
+        <Longitude unit="DEGREES">-117.40446970742079</Longitude>
+        <Elevation unit="METERS">593.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+    </Station>
+    <Station code="9">
+      <Latitude unit="DEGREES">47.68176859236064</Latitude>
+      <Longitude unit="DEGREES">-117.40154435584755</Longitude>
+      <Elevation unit="METERS">631.5833333333335</Elevation>
+      <Site>
+        <Name>9</Name>
+      </Site>
+      <CreationDate>None</CreationDate>
+      <Channel code="DPE" locationCode="1">
+        <Latitude unit="DEGREES">47.68176859236064</Latitude>
+        <Longitude unit="DEGREES">-117.40154435584755</Longitude>
+        <Elevation unit="METERS">631.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPN" locationCode="1">
+        <Latitude unit="DEGREES">47.68176859236064</Latitude>
+        <Longitude unit="DEGREES">-117.40154435584755</Longitude>
+        <Elevation unit="METERS">631.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPZ" locationCode="1">
+        <Latitude unit="DEGREES">47.68176859236064</Latitude>
+        <Longitude unit="DEGREES">-117.40154435584755</Longitude>
+        <Elevation unit="METERS">631.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+    </Station>
+    <Station code="3">
+      <Latitude unit="DEGREES">47.68096972360262</Latitude>
+      <Longitude unit="DEGREES">-117.40185292009602</Longitude>
+      <Elevation unit="METERS">638.5833333333335</Elevation>
+      <Site>
+        <Name>3</Name>
+      </Site>
+      <CreationDate>None</CreationDate>
+      <Channel code="DPE" locationCode="1">
+        <Latitude unit="DEGREES">47.68096972360262</Latitude>
+        <Longitude unit="DEGREES">-117.40185292009602</Longitude>
+        <Elevation unit="METERS">638.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPN" locationCode="1">
+        <Latitude unit="DEGREES">47.68096972360262</Latitude>
+        <Longitude unit="DEGREES">-117.40185292009602</Longitude>
+        <Elevation unit="METERS">638.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPZ" locationCode="1">
+        <Latitude unit="DEGREES">47.68096972360262</Latitude>
+        <Longitude unit="DEGREES">-117.40185292009602</Longitude>
+        <Elevation unit="METERS">638.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+    </Station>
+    <Station code="6">
+      <Latitude unit="DEGREES">47.679541729059174</Latitude>
+      <Longitude unit="DEGREES">-117.40251571126403</Longitude>
+      <Elevation unit="METERS">618.5833333333335</Elevation>
+      <Site>
+        <Name>6</Name>
+      </Site>
+      <CreationDate>None</CreationDate>
+      <Channel code="DPE" locationCode="1">
+        <Latitude unit="DEGREES">47.679541729059174</Latitude>
+        <Longitude unit="DEGREES">-117.40251571126403</Longitude>
+        <Elevation unit="METERS">618.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPN" locationCode="1">
+        <Latitude unit="DEGREES">47.679541729059174</Latitude>
+        <Longitude unit="DEGREES">-117.40251571126403</Longitude>
+        <Elevation unit="METERS">618.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPZ" locationCode="1">
+        <Latitude unit="DEGREES">47.679541729059174</Latitude>
+        <Longitude unit="DEGREES">-117.40251571126403</Longitude>
+        <Elevation unit="METERS">618.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+    </Station>
+    <Station code="12">
+      <Latitude unit="DEGREES">47.680740038759026</Latitude>
+      <Longitude unit="DEGREES">-117.40392121730856</Longitude>
+      <Elevation unit="METERS">611.5833333333335</Elevation>
+      <Site>
+        <Name>12</Name>
+      </Site>
+      <CreationDate>None</CreationDate>
+      <Channel code="DPE" locationCode="1">
+        <Latitude unit="DEGREES">47.680740038759026</Latitude>
+        <Longitude unit="DEGREES">-117.40392121730856</Longitude>
+        <Elevation unit="METERS">611.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPN" locationCode="1">
+        <Latitude unit="DEGREES">47.680740038759026</Latitude>
+        <Longitude unit="DEGREES">-117.40392121730856</Longitude>
+        <Elevation unit="METERS">611.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPZ" locationCode="1">
+        <Latitude unit="DEGREES">47.680740038759026</Latitude>
+        <Longitude unit="DEGREES">-117.40392121730856</Longitude>
+        <Elevation unit="METERS">611.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+    </Station>
+    <Station code="1">
+      <Latitude unit="DEGREES">47.65403725242212</Latitude>
+      <Longitude unit="DEGREES">-117.42132271239608</Longitude>
+      <Elevation unit="METERS">532.5833333333335</Elevation>
+      <Site>
+        <Name>1</Name>
+      </Site>
+      <CreationDate>None</CreationDate>
+      <Channel code="DPE" locationCode="1">
+        <Latitude unit="DEGREES">47.65403725242212</Latitude>
+        <Longitude unit="DEGREES">-117.42132271239608</Longitude>
+        <Elevation unit="METERS">532.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPN" locationCode="1">
+        <Latitude unit="DEGREES">47.65403725242212</Latitude>
+        <Longitude unit="DEGREES">-117.42132271239608</Longitude>
+        <Elevation unit="METERS">532.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+      <Channel code="DPZ" locationCode="1">
+        <Latitude unit="DEGREES">47.65403725242212</Latitude>
+        <Longitude unit="DEGREES">-117.42132271239608</Longitude>
+        <Elevation unit="METERS">532.5833333333335</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+      </Channel>
+    </Station>
+  </Network>
+</FDSNStationXML>
