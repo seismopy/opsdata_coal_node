@@ -68,3 +68,8 @@ def test_inventory(clients):
     station = clients["station"].get_stations()
     assert isinstance(station, obspy.Inventory)
     assert len(station)
+    # each channel should have a sampling rate
+    for net in station:
+        for sta in net:
+            for chan in sta:
+                assert chan.sample_rate == 250
