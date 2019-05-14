@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <q:quakeml xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns="http://quakeml.org/xmlns/bed/1.2">
-  <eventParameters publicID="smi:local/8d6ef969-1088-4a5a-8176-da5316206fc4">
+  <eventParameters publicID="smi:local/c4d698b7-8cfa-486b-a1db-8c6c9ac3b723">
     <event publicID="smi:local/a5a139ac-567b-433f-a354-f09209d1584c">
       <preferredOriginID>smi:local/6bf0548c-dd82-4598-b68a-53b3d1b61065</preferredOriginID>
       <preferredMagnitudeID>smi:local/d257e041-6bad-4a55-be2b-90ce55df10a4</preferredMagnitudeID>
@@ -9,8 +9,8 @@
       </description>
       <creationInfo>
         <agencyID>NIOSH</agencyID>
-        <author>SB</author>
-        <creationTime>2019-12-13T14:11:25.404193Z</creationTime>
+        <author>DC</author>
+        <creationTime>2019-05-14T01:47:11.720486Z</creationTime>
       </creationInfo>
       <origin publicID="smi:local/6bf0548c-dd82-4598-b68a-53b3d1b61065">
         <time>
@@ -338,6 +338,7 @@
         <onset>questionable</onset>
         <phaseHint>P</phaseHint>
         <polarity>undecidable</polarity>
+        <evaluationStatus>rejected</evaluationStatus>
         <creationInfo>
           <creationTime>2019-11-30T18:43:45.667522Z</creationTime>
         </creationInfo>
@@ -351,6 +352,7 @@
         <onset>questionable</onset>
         <phaseHint>P</phaseHint>
         <polarity>undecidable</polarity>
+        <evaluationStatus>rejected</evaluationStatus>
         <creationInfo>
           <creationTime>2019-11-30T18:43:45.668569Z</creationTime>
         </creationInfo>
@@ -364,6 +366,7 @@
         <onset>questionable</onset>
         <phaseHint>P</phaseHint>
         <polarity>undecidable</polarity>
+        <evaluationStatus>rejected</evaluationStatus>
         <creationInfo>
           <creationTime>2019-11-30T18:43:45.669473Z</creationTime>
         </creationInfo>
@@ -377,6 +380,7 @@
         <onset>questionable</onset>
         <phaseHint>P</phaseHint>
         <polarity>undecidable</polarity>
+        <evaluationStatus>rejected</evaluationStatus>
         <creationInfo>
           <creationTime>2019-11-30T18:43:45.670362Z</creationTime>
         </creationInfo>
@@ -390,6 +394,7 @@
         <onset>questionable</onset>
         <phaseHint>P</phaseHint>
         <polarity>undecidable</polarity>
+        <evaluationStatus>rejected</evaluationStatus>
         <creationInfo>
           <creationTime>2019-11-30T18:43:45.671248Z</creationTime>
         </creationInfo>
@@ -403,6 +408,7 @@
         <onset>questionable</onset>
         <phaseHint>P</phaseHint>
         <polarity>undecidable</polarity>
+        <evaluationStatus>rejected</evaluationStatus>
         <creationInfo>
           <creationTime>2019-11-30T18:43:45.672118Z</creationTime>
         </creationInfo>
@@ -416,6 +422,7 @@
         <onset>questionable</onset>
         <phaseHint>P</phaseHint>
         <polarity>undecidable</polarity>
+        <evaluationStatus>rejected</evaluationStatus>
         <creationInfo>
           <creationTime>2019-11-30T18:43:45.673087Z</creationTime>
         </creationInfo>
@@ -429,6 +436,7 @@
         <onset>questionable</onset>
         <phaseHint>P</phaseHint>
         <polarity>undecidable</polarity>
+        <evaluationStatus>rejected</evaluationStatus>
         <creationInfo>
           <creationTime>2019-11-30T18:43:45.674231Z</creationTime>
         </creationInfo>
@@ -442,6 +450,7 @@
         <onset>questionable</onset>
         <phaseHint>P</phaseHint>
         <polarity>undecidable</polarity>
+        <evaluationStatus>rejected</evaluationStatus>
         <creationInfo>
           <creationTime>2019-11-30T18:43:45.675144Z</creationTime>
         </creationInfo>
@@ -455,10 +464,338 @@
         <onset>questionable</onset>
         <phaseHint>P</phaseHint>
         <polarity>undecidable</polarity>
+        <evaluationStatus>rejected</evaluationStatus>
         <creationInfo>
           <creationTime>2019-11-30T18:43:45.676037Z</creationTime>
         </creationInfo>
       </pick>
+      <pick publicID="smi:local/91346b54-ea9f-49c6-8133-2be0fa287369">
+        <time>
+          <value>2019-01-19T10:02:16.717369Z</value>
+          <uncertainty>0.0022916793823242188</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="10"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.718681Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/52abb3cd-b9d2-4fbd-b671-b0458af1b902">
+        <time>
+          <value>2019-01-19T10:02:16.714530Z</value>
+          <uncertainty>0.0010628700256347656</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="4"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.718950Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/3c1e88ab-5fee-4335-ad5b-9dfd6703b2a8">
+        <time>
+          <value>2019-01-19T10:02:16.687304Z</value>
+          <uncertainty>0.002971649169921875</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="5"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.719174Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/130ffc0e-9fbf-409c-8982-934882482b71">
+        <time>
+          <value>2019-01-19T10:02:16.715827Z</value>
+          <uncertainty>0.0018783855438232423</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="11"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.719390Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/d4336683-b2d7-4155-84f7-7e0af44e63f1">
+        <time>
+          <value>2019-01-19T10:02:16.698523Z</value>
+          <uncertainty>0.0017240047454833984</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="12"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.719502Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/fdb94d99-81ad-4f28-925c-b251fcf4d653">
+        <time>
+          <value>2019-01-19T10:02:16.717317Z</value>
+          <uncertainty>0.001225118637084961</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="3"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.719620Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/6a31e8eb-2792-4220-b87e-caa291a18c30">
+        <time>
+          <value>2019-01-19T10:02:16.705338Z</value>
+          <uncertainty>0.0027306079864501953</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="9"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.719821Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/f4fb0a61-d8da-4f4d-a98c-6eab729abf36">
+        <time>
+          <value>2019-01-19T10:02:16.718545Z</value>
+          <uncertainty>0.0018177032470703125</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="8"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.720022Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/63649417-40ca-48ea-8b4f-b1a59c2394f8">
+        <time>
+          <value>2019-01-19T10:02:16.720385Z</value>
+          <uncertainty>0.0022590160369873047</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="7"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.720227Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/380f3f99-32c8-46a9-b444-696a7ad70d7a">
+        <time>
+          <value>2019-01-19T10:02:16.686414Z</value>
+          <uncertainty>0.0012319087982177734</uncertainty>
+        </time>
+        <waveformID channelCode="DPZ" locationCode="1" networkCode="1" stationCode="2"></waveformID>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <onset>questionable</onset>
+        <phaseHint>P</phaseHint>
+        <polarity>negative</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.720431Z</creationTime>
+        </creationInfo>
+      </pick>
+      <amplitude publicID="smi:local/9d81a59c-b8ae-48dd-99c3-9ea0be5d8a66">
+        <genericAmplitude>
+          <value>0.16435633270151545</value>
+        </genericAmplitude>
+        <type>P</type>
+        <unit>m</unit>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <timeWindow>
+          <reference>2019-01-19T10:02:16.717369Z</reference>
+          <begin>0.0</begin>
+          <end>0.05408287048339844</end>
+        </timeWindow>
+        <pickID>smi:local/91346b54-ea9f-49c6-8133-2be0fa287369</pickID>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.718817Z</creationTime>
+        </creationInfo>
+      </amplitude>
+      <amplitude publicID="smi:local/457241e2-50de-4d2d-ac3c-4923c9b06feb">
+        <genericAmplitude>
+          <value>0.12909291753730945</value>
+        </genericAmplitude>
+        <type>P</type>
+        <unit>m</unit>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <timeWindow>
+          <reference>2019-01-19T10:02:16.714530Z</reference>
+          <begin>0.0</begin>
+          <end>0.06838822364807129</end>
+        </timeWindow>
+        <pickID>smi:local/52abb3cd-b9d2-4fbd-b671-b0458af1b902</pickID>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.719049Z</creationTime>
+        </creationInfo>
+      </amplitude>
+      <amplitude publicID="smi:local/8a6c9402-415d-4d7b-8dcd-d07a9132bf2c">
+        <genericAmplitude>
+          <value>0.020295356486067194</value>
+        </genericAmplitude>
+        <type>P</type>
+        <unit>m</unit>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <timeWindow>
+          <reference>2019-01-19T10:02:16.687304Z</reference>
+          <begin>0.0</begin>
+          <end>0.04754519462585449</end>
+        </timeWindow>
+        <pickID>smi:local/3c1e88ab-5fee-4335-ad5b-9dfd6703b2a8</pickID>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.719269Z</creationTime>
+        </creationInfo>
+      </amplitude>
+      <amplitude publicID="smi:local/26ac76a3-588a-4293-92de-def8f4f8b562">
+        <genericAmplitude>
+          <value>0.22033093702139098</value>
+        </genericAmplitude>
+        <type>P</type>
+        <unit>m</unit>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <timeWindow>
+          <reference>2019-01-19T10:02:16.717317Z</reference>
+          <begin>0.0</begin>
+          <end>0.054872989654541016</end>
+        </timeWindow>
+        <pickID>smi:local/fdb94d99-81ad-4f28-925c-b251fcf4d653</pickID>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.719706Z</creationTime>
+        </creationInfo>
+      </amplitude>
+      <amplitude publicID="smi:local/74d24626-868a-4605-9358-5e19e36e2517">
+        <genericAmplitude>
+          <value>0.2918865430317507</value>
+        </genericAmplitude>
+        <type>P</type>
+        <unit>m</unit>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <timeWindow>
+          <reference>2019-01-19T10:02:16.705338Z</reference>
+          <begin>0.0</begin>
+          <end>0.07347989082336426</end>
+        </timeWindow>
+        <pickID>smi:local/6a31e8eb-2792-4220-b87e-caa291a18c30</pickID>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.719907Z</creationTime>
+        </creationInfo>
+      </amplitude>
+      <amplitude publicID="smi:local/25cb5c14-81b4-4ca9-8241-8359dd65117c">
+        <genericAmplitude>
+          <value>0.09055793950452772</value>
+        </genericAmplitude>
+        <type>P</type>
+        <unit>m</unit>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <timeWindow>
+          <reference>2019-01-19T10:02:16.718545Z</reference>
+          <begin>0.0</begin>
+          <end>0.053105831146240234</end>
+        </timeWindow>
+        <pickID>smi:local/f4fb0a61-d8da-4f4d-a98c-6eab729abf36</pickID>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.720108Z</creationTime>
+        </creationInfo>
+      </amplitude>
+      <amplitude publicID="smi:local/63dc004a-134f-4480-8ee6-c0c1e90d8a2e">
+        <genericAmplitude>
+          <value>0.04334634396726772</value>
+        </genericAmplitude>
+        <type>P</type>
+        <unit>m</unit>
+        <methodID>smi:local/spick_0.0.0</methodID>
+        <timeWindow>
+          <reference>2019-01-19T10:02:16.720385Z</reference>
+          <begin>0.0</begin>
+          <end>0.04613900184631348</end>
+        </timeWindow>
+        <pickID>smi:local/63649417-40ca-48ea-8b4f-b1a59c2394f8</pickID>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <agencyID>NIOSH</agencyID>
+          <author>DC</author>
+          <creationTime>2019-05-14T01:47:11.720316Z</creationTime>
+        </creationInfo>
+      </amplitude>
     </event>
   </eventParameters>
 </q:quakeml>
