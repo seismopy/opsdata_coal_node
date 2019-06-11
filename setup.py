@@ -11,10 +11,15 @@ if sys.version_info.major < 3:
     raise Exception(f"Obsplus datasets cannot be run on python 2")
 
 
-def get_package_data_files():
-    """ Create a list of datafiles """
-    data_path = Path("opsdata_coal_node") / "data"
-    return [("", list(data_path.rglob()))]
+# get path references
+here = Path(__file__).absolute().parent
+version_file = here / "opsdata_coal_node" / "version.py"
+
+
+# --- get version
+with version_file.open() as fi:
+    content = fi.read().split("=")[-1].strip()
+    __version__ = content.replace('"', "").replace("'", "")
 
 
 # get requirements
@@ -35,6 +40,7 @@ setup(
     ],
     description="A dataset collected over an operating longwall coalmine using a dense network of geophones",
     long_description=open("README.md").read(),
+    long_description_content_type='text/markdown',
     entry_points={"obsplus.datasets": ["coal_node=opsdata_coal_node.core"]},
     install_requires=requirements,
     license="BSD",
@@ -44,6 +50,6 @@ setup(
     test_suite="tests",
     tests_require=test_requirements,
     url="https://github.com/d-chambers/coal_node",
-    version="0.1.0",
+    version=__version__,
     zip_safe=False,
 )
