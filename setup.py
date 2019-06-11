@@ -40,7 +40,7 @@ setup(
     ],
     description="A dataset collected over an operating longwall coalmine using a dense network of geophones",
     long_description=open("README.md").read(),
-    long_description_content_type='text/markdown',
+    long_description_content_type="text/markdown",
     entry_points={"obsplus.datasets": ["coal_node=opsdata_coal_node.core"]},
     install_requires=requirements,
     license="BSD",

@@ -6,8 +6,10 @@ from pathlib import Path
 import obsplus
 from obsplus import DataSet
 
+from opsdata_coal_node.version import __version__
 
-class Coal_node(DataSet):
+
+class CoalNode(DataSet):
     """
     A dataset collected over an operating longwall coalmine using a dense
     network of geophones.
@@ -15,6 +17,7 @@ class Coal_node(DataSet):
 
     name = "coal_node"
     base_path = Path(__file__).parent
+    version = __version__
 
     # --- functions used to specify how data are downloaded
 
