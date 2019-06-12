@@ -2,9 +2,10 @@
 The setup script for the dataset.
 """
 import sys
+from collections import defaultdict
 from pathlib import Path
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 # make sure python 3 is running
 if sys.version_info.major < 3:
@@ -13,13 +14,41 @@ if sys.version_info.major < 3:
 
 # get path references
 here = Path(__file__).absolute().parent
-version_file = here / "opsdata_coal_node" / "version.py"
+pkg_path = here / "opsdata_coal_node"
+version_file = pkg_path / "version.py"
 
 
 # --- get version
 with version_file.open() as fi:
     content = fi.read().split("=")[-1].strip()
     __version__ = content.replace('"', "").replace("'", "")
+
+
+def find_packages():
+    """ find packages """
+    out = []
+    relative_pkg_path = pkg_path.relative_to(here)
+    for fi in relative_pkg_path.rglob('*'):
+        if fi.is_dir() and (fi / "__init__.py").exists():
+            out.append(str(fi))
+    out.append(str(relative_pkg_path))
+    return out
+
+
+def get_package_data_files():
+    """ Gets data """
+    data = Path("opsdata_coal_node") / "coal_node"
+    out = defaultdict(list)
+    # get list of datasets
+    datasets = [x for x in data.glob("*") if x.is_dir()]
+    for dataset in datasets:
+        for ifile in dataset.glob("*"):
+            if ifile.name.endswith("py") or ifile.name.endswith("pyc"):
+                continue
+            if ifile.is_dir():
+                continue
+            out[str(ifile.parent)].append(str(ifile))
+    return list(out.items())
 
 
 # get requirements
@@ -46,10 +75,11 @@ setup(
     license="BSD",
     include_package_data=True,
     name="opsdata_coal_node",
-    packages=find_packages(include=["ops_datasetcoal_node"]),
+    packages=find_packages(),
     test_suite="tests",
     tests_require=test_requirements,
     url="https://github.com/d-chambers/coal_node",
+    data_files=get_package_data_files(),
     version=__version__,
     zip_safe=False,
 )

@@ -3,7 +3,6 @@ ObsPlus instructions for downloading dataset.
 """
 from pathlib import Path
 
-import obsplus
 from obsplus import DataSet
 
 from opsdata_coal_node.version import __version__
