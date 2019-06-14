@@ -34,20 +34,15 @@ def find_packages():
     out.append(str(relative_pkg_path))
     return out
 
-
 def get_package_data_files():
     """ Gets data """
+
     data = Path("opsdata_coal_node") / "coal_node"
-    out = defaultdict(list)
-    # get list of datasets
-    datasets = [x for x in data.glob("*") if x.is_dir()]
-    for dataset in datasets:
-        for ifile in dataset.glob("*"):
-            if ifile.name.endswith("py") or ifile.name.endswith("pyc"):
-                continue
-            if ifile.is_dir():
-                continue
-            out[str(ifile.parent)].append(str(ifile))
+    out = {}
+    for path in data.rglob('*'):
+        files = [str(fi) for fi in path.glob('*') if not fi.is_dir()]
+        if files:
+            out[str(path)] = files
     return list(out.items())
 
 
@@ -56,6 +51,8 @@ requirements = open("requirements.txt")
 test_requirements = open("tests/requirements.txt")
 
 license_classifiers = {"BSD license": "License :: OSI Approved :: BSD License"}
+
+data_files = get_package_data_files()
 
 setup(
     author="Derrick Chambers",
