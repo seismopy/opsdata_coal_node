@@ -10,7 +10,7 @@ from opsdata_coal_node.version import __version__
 
 class CoalNode(DataSet):
     """
-    A dataset collected over an operating longwall coalmine using a dense
+    A dataset collected over an operating longwall coal mine using a dense
     network of geophones.
     """
 
@@ -63,7 +63,7 @@ class CoalNode(DataSet):
     # def station_client(self) -> Optional[obspy.Inventory]:
     #     """ A cached property for a station client """
 
-    # --- post download hook
+    # --- pre/post download hooks
 
     # def pre_download_hook(self):
     #     """ This code gets run before downloading any data. """
